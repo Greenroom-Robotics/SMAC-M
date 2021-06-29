@@ -5,7 +5,7 @@ This has been dockerised so it is easier to run.
 Follow the following steps to convert an ENC file into a MapServer chart.
 
 - docker build -t smac .
-- docker run -it -v /<abs-path-to-this-repo>/SMAC-M:/app smac bash
+- docker run -it -v /abs-path-to-this-repo/SMAC-M:/app smac bash
 
 Now, from within docker:
 

@@ -110,7 +110,7 @@ do
             # add a special dataset to support Lignts signature...
             if [[ "${name}" == "LIGHTS" ]]
             then
-                pring("!!!!!! WARNING!!!!!! - The lights layer has been skipped")
+                print("!!!!!! WARNING!!!!!! - The lights layer has been skipped")
                 continue
                 cat=CL${usage}_${name}_${type}
 
