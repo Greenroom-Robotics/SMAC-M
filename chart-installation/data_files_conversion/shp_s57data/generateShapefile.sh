@@ -110,6 +110,8 @@ do
             # add a special dataset to support Lignts signature...
             if [[ "${name}" == "LIGHTS" ]]
             then
+                pring("!!!!!! WARNING!!!!!! - The lights layer has been skipped")
+                continue
                 cat=CL${usage}_${name}_${type}
 
                 # using cast(${cat}.HEIGHT as numeric(30,5)) -> https://trac.osgeo.org/gdal/ticket/6803

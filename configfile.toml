@@ -1,0 +1,11 @@
+point_table = "Paper"
+area_table = "Plain"
+displaycategory = "Standard"
+debug = false
+
+[paths]
+chartsymbols = "/app/chart-installation/generate_map_files/resources/chartsymbols/chartsymbols_S57.xml"
+ruleset = "/app/chart-installation/generate_map_files/resources/rules"
+chart = "/app/data/AU5193P0/5"
+data = "/app/data/AU5193P0/chart"
+map = "/app/data/AU5193P0/map"
